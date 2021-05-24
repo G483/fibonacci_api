@@ -1,0 +1,21 @@
+{
+    "name": "fib/fib",
+    "description": "Simple Fibonacci implementation.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabrijel",
+            "email": "gabrijel.web@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "9.5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fib\\": "src/",
+            "Vendor\\Namespace\\": ""
+        }
+    }
+}
